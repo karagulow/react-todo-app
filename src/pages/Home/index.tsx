@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
-import { AddTask, Container, Tabs, TaskList, Title } from '../components';
-import useTaskStore from '../store/taskStore';
+import { AddTask, Container, Tabs, TaskList, Title } from '../../components';
+import useTaskStore from '../../store/taskStore';
 
 export const Home = () => {
 	const tabs = ['All', 'Active', 'Completed'];
